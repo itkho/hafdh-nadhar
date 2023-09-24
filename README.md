@@ -5,12 +5,12 @@ Package Python that blur human representations from an image
 
 ### Installation
 
-```py
-pdm install
+```sh
+pdm install --dev
 ```
 
 ### Test-it
 
-```py
+```sh
 pdm run python tests/example.py
 ```
