@@ -14,3 +14,12 @@ pdm install --dev
 ```sh
 pdm run python tests/example.py
 ```
+
+### Exemple
+
+Before:
+
+![Before](tests/images/girl.jpg)
+
+After:
+![After](tests/images/girl-result.jpg)

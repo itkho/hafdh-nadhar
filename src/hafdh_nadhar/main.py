@@ -14,6 +14,6 @@ def main(img_path: str):
     blur_persons(image=image, person_boxes=person_boxes, only_female=False)
 
     # Display the result
-    cv2.imshow("Gender Person Detection", image)
+    cv2.imshow("Result", image)
     cv2.waitKey(0)
     cv2.destroyAllWindows()

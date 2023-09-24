@@ -31,7 +31,7 @@ def blur_persons(
 
         # Blur the person
         blurred_roi = cv2.GaussianBlur(
-            src=extended_person_roi, ksize=(99, 99), sigmaX=30
+            src=extended_person_roi, ksize=(99, 99), sigmaX=50
         )
         image[
             y - extention : y + h + extention, x - extention : x + w + extention
