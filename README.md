@@ -19,7 +19,8 @@ pdm run python tests/example.py
 
 Before:
 
-![Before](tests/images/girl.jpg)
+![Before](tests/images/boy.jpg)
 
 After:
-![After](tests/images/girl-result.jpg)
+
+![After](tests/images/boy-result.jpg)
