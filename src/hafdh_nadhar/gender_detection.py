@@ -15,6 +15,8 @@ net_gender = cv2.dnn.readNet(
 def get_gender(roi: np.ndarray) -> Gender:
     """
     Get a ROI (Region Of Interest) and returns either the person is a male or a female
+
+    NOTE: not 100% accurate
     """
     # Preprocess the image for gender classification
     gender_blob = cv2.dnn.blobFromImage(

@@ -5,8 +5,8 @@ PERSON_CLASS_ID = 0
 
 # Load YOLO model for person detection
 net_person = cv2.dnn.readNet(
-    "src/models/person_prediction/yolov3.weights",
-    "src/models/person_prediction/yolov3.cfg",
+    "src/models/person_prediction/yolov3-tiny.weights",
+    "src/models/person_prediction/yolov3-tiny.cfg",
 )
 
 
