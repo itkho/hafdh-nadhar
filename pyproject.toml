@@ -1,6 +1,6 @@
 [project]
 name = "hafdh-nadhar"
-version = "0.1.0"
+version = "0.1.1"
 description = "Remove humans from a picture"
 authors = [
     {name = "karim-bouchez", email = "bouchez.karim@gmail.com"},
