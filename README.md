@@ -15,6 +15,12 @@ pdm install --dev
 pdm run python tests/example.py
 ```
 
+### Build and publish
+
+```sh
+pdm publish --password <API_TOKEN>
+```
+
 ### Exemple
 
 Before:

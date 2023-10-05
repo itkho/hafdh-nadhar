@@ -1,7 +1,7 @@
 [project]
 name = "hafdh-nadhar"
 version = "0.1.0"
-description = "Remove women body from a picture"
+description = "Remove humans from a picture"
 authors = [
     {name = "karim-bouchez", email = "bouchez.karim@gmail.com"},
 ]
@@ -18,5 +18,4 @@ build-backend = "pdm.backend"
 
 [tool.pdm.dev-dependencies]
 dev = [
-    "requests>=2.31.0",
 ]
