@@ -1,3 +1,3 @@
-from hafdh_nadhar.main import main
+from hafdh_nadhar.hafdh import hafdh_img
 
-main(img_path="tests/images/boy.jpg")
+hafdh_img(img_path="tests/images/boy.jpg")

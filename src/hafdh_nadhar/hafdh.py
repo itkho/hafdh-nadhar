@@ -4,7 +4,8 @@ from hafdh_nadhar.blur_person import blur_persons
 from hafdh_nadhar.person_detection import get_person_boxes
 
 
-def main(img_path: str):
+def hafdh_img(img_path: str):
+    """Hafdh (read: حفظ | means: preserve) an image from human representations by blurring them"""
     # Load an image
     image = cv2.imread(filename=img_path)
     if image is None:
