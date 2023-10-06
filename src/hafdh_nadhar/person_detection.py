@@ -1,12 +1,16 @@
+import os
+
 import cv2
 import numpy as np
 
 PERSON_CLASS_ID = 0
 
 # Load YOLO model for person detection
+current_dir = os.path.dirname(os.path.abspath(__file__))
+current_dir = os.path.dirname(os.path.relpath(__file__))
 net_person = cv2.dnn.readNet(
-    "src/models/person_prediction/yolov3-tiny.weights",
-    "src/models/person_prediction/yolov3-tiny.cfg",
+    f"{current_dir}/models/person_prediction/yolov3-tiny.weights",
+    f"{current_dir}/models/person_prediction/yolov3-tiny.cfg",
 )
 
 

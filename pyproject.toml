@@ -1,6 +1,6 @@
 [project]
 name = "hafdh-nadhar"
-version = "0.1.3"
+version = "0.1.6"
 repository = "https://github.com/itkho/hafdh-nadhar"
 description = "Blur humans from a picture"
 authors = [
@@ -17,8 +17,8 @@ license = {text = "MIT"}
 requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
-[tool.pdm.build]
-includes = ["**/*.cfg", "**/*.weights"]
+# [tool.pdm.build]
+# includes = ["src", "**/*.cfg", "**/*.weights"]
 
 [tool.pdm.dev-dependencies]
 dev = []

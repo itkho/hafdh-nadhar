@@ -1,3 +1,4 @@
+import os
 from typing import Literal
 
 import cv2
@@ -6,9 +7,11 @@ import numpy as np
 Gender = Literal["male", "female"]
 
 # Load gender classification model
+current_dir = os.path.dirname(os.path.abspath(__file__))
+current_dir = os.path.dirname(os.path.relpath(__file__))
 net_gender = cv2.dnn.readNet(
-    "src/models/gender_prediction/gender_net.caffemodel",
-    "src/models/gender_prediction/deploy_gender.prototxt",
+    f"{current_dir}/models/gender_prediction/gender_net.caffemodel",
+    f"{current_dir}/models/gender_prediction/deploy_gender.prototxt",
 )
 
 
